@@ -19,7 +19,7 @@
 /* HEADER */
 .grid h1{
   grid-area: head;
-  background-image: url('../pictures/header.jpg') ;
+  background-image: url('../pictures low/header.jpg') ;
   background-size: cover;
   background-position: center;
 }
