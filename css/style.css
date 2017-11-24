@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Bad+Script|Pacifico&subset=cyrillic');
 @import url('https://fonts.googleapis.com/css?family=Poiret+One&subset=cyrillic');
-
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,600,700&subset=cyrillic');
 
 .grid{
   height: 1000px;
@@ -93,14 +93,48 @@ a:link {
 }
 
 /*-------------PANCAKE PAGE---------------*/
-
+.container header{
+  text-align: center;
+  
+}
 main{
+  margin-top: 50px;
+  border:3px solid green;
   display: grid;
-  grid-template-columns: 250px 250px;
-  grid-template-rows: 350px 350px;
+  grid-template-columns: 20% 20%;
+  grid-template-rows: 450px 450px;
+    justify-items: center;
+  justify-content: center;
+  
+  align-content: center;
+ 
+  grid-gap: 20px;
 
 }
-.container h1
+h2{}
+.container h1{
+  font-size: 50px;
+  font-family: Pacifico;
+}
+.container h2{
+  display: block;
+font-family: Oswald;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+
+
+
+}
 .recipe{
-border: 3px solid black;
+
+color: white;
+background-color: rgba(0,0,0,0.7);
+}
+.ingr{
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
 }

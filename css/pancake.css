@@ -1,0 +1,46 @@
+/*-------------PANCAKE PAGE---------------*/
+.container header{
+  text-align: center;
+  
+}
+main{
+  margin-top: 50px;
+  border:3px solid green;
+  display: grid;
+  grid-template-columns: 20% 20%;
+  grid-template-rows: 450px 450px;
+    justify-items: center;
+  justify-content: center;
+  
+  align-content: center;
+ 
+  grid-gap: 20px;
+
+}
+h2{}
+.container h1{
+  font-size: 50px;
+  font-family: Pacifico;
+}
+.container h2{
+  display: block;
+font-family: Oswald;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+
+
+
+}
+.recipe{
+
+color: white;
+background-color: rgba(0,0,0,0.7);
+}
+.ingr{
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+}
