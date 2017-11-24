@@ -19,7 +19,7 @@
 /* HEADER */
 .grid h1{
   grid-area: head;
-  background-image: url('../pictures/header.jpg') ;
+  background-image: url('../pictures low/header.jpg') ;
   background-size: cover;
   background-position: center;
 }
@@ -47,6 +47,7 @@ div a{
   color: rgba(255,255,240,0.7);
   text-shadow: 1px 1px 15px rgba(0,0,0,0.5);
   letter-spacing: 0.05em;
+  
 }
 a:hover{
   color: black;
@@ -59,6 +60,7 @@ a:link {
 .box{
   background-size: cover;
   background-position: center;
+  
 }
 /*--------GRID AREAS--------*/
 .a{
