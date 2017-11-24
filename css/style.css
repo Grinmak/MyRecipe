@@ -63,33 +63,33 @@ a:link {
 /*--------GRID AREAS--------*/
 .a{
   grid-area:cocktail;
-  background-image: url('../pictures/cocktail.jpg');
+  background-image: url('../pictures low/cocktail.jpg');
 
 }
 .b{
   grid-area: second;
-  background-image: url('../pictures/second.jpg');
+  background-image: url('../pictures low/second.jpg');
 }
 .c{
   grid-area: soup;
-  background-image: url('../pictures/soup.jpg');
+  background-image: url('../pictures low/soup.jpg');
 }
 .d{
   grid-area: pancake;
-  background-image: url('../pictures/pancake.jpg');
+  background-image: url('../pictures low/pancake.jpg');
 }
 .e{
   grid-area: zakus;
-  background-image: url('../pictures/zakus.jpg');
+  background-image: url('../pictures low/zakus.jpg');
 }
 .f{
   grid-area: salat;
-  background-image: url('../pictures/salad.jpg');
+  background-image: url('../pictures low/salad.jpg');
 }
 
 .g{
   grid-area: dessert;
-  background-image: url('../pictures/dessert.jpg');
+  background-image: url('../pictures low/dessert.jpg');
 }
 
 /*-------------PANCAKE PAGE---------------*/
